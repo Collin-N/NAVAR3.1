@@ -119,6 +119,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Secret Maze.Designer.vb">
+      <DependentUpon>Secret Maze.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Secret Maze.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Tutorial.Designer.vb">
       <DependentUpon>Tutorial.vb</DependentUpon>
     </Compile>
@@ -147,6 +153,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secret Maze.resx">
+      <DependentUpon>Secret Maze.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tutorial.resx">
       <DependentUpon>Tutorial.vb</DependentUpon>
